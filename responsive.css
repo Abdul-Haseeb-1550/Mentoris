@@ -1,0 +1,119 @@
+@media (max-width:600px){
+    header {
+        padding: 2rem 10px;
+    }
+    .logo {
+        font-size:7vw;
+    }
+    .login-signup a {
+        font-size: 4vw;
+    }
+    /*main*/
+    main{
+        width:100%;
+    }
+    .main-text{
+        flex-direction: column;
+        padding:0px 1rem;
+        font-size: 7vw;
+    }
+    .main-text img{
+       width:100%;
+    }
+    .second-text {
+        padding: 0px 1rem;
+        justify-content: center;
+        font-size: 8vw;
+    }
+    .instructional-text{
+        padding:0px 2rem;
+        font-size: 20px;
+    }
+    .selected-instructor{
+     font-size: 20px;
+     padding:0px 2rem;
+    }
+    /*section*/
+    .subject-sir{
+        grid-gap:5rem;
+    }
+    .review{
+        font-size: 9px;
+    }
+    .another-section{
+        flex-direction: column;
+    }
+    /* last-imges */
+    .last-all-divs {
+        flex-direction: column;
+        gap: 5rem;
+    }
+    .last{
+        font-size: 13px; 
+    }
+    
+
+.last-section {
+   background: none;
+}
+.first-two{
+    width:200px;
+}
+.first-two img{
+    width:100%;
+}
+.last-three-images{
+    width:300px;
+}
+.last-three-images img{
+    width:100%;
+}
+}
+@media (min-width:600px) and (max-width:800px){
+    .main-text{
+        flex-wrap: wrap;
+        font-size: 44px;
+    }
+    .second-text {
+        justify-content:center;
+        font-size: 43px;
+    }
+    .subject-sir {
+        margin-top: 25rem;
+        grid-gap: 2rem;
+        grid-template-columns: repeat(auto-fill, 228px);
+        align-items: center;
+    }
+    .another-section {
+        justify-content: center;
+        align-items: center;
+        gap: 32px;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .last-all-divs{
+        flex-wrap: wrap;
+    gap: 3rem;
+    }
+}
+/********Laptop Size***************/
+@media (min-width:800px) and (max-width:1300px){
+    .main-text{
+        font-size:3vw;
+    }
+    .main-text img{
+        width:50%;
+    }
+    .second-text{
+        font-size: 5vw;
+    }
+    .review {
+        font-size: 1.5vw;
+    }
+    .last{
+        font-size: 1.4vw;
+    }
+       .last-all-divs{
+        width:90%;
+    }
+}
